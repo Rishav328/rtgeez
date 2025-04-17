@@ -194,16 +194,16 @@
 
   <script>
     const imageData = [
-      { id: 1, source: './assets/images/1.png', caption: "Your Birthday Glow", description: "Happy birthday, Liza! From 11th grade to college, you’re my closest friend. I’m here to make today as special as you are." },
-      { id: 2, source: './assets/images/2.png', caption: "My Deep Regret", description: "I’m sorry for saying you were using me, Liza. It was fear, not truth. Let’s make your birthday about joy, not my mistake." },
-      { id: 3, source: './assets/images/3.png', caption: "Our Unbreakable Bond", description: "Happy birthday, Liza! You’re the friend I trust with all my secrets. I care about you so much and want you to shine today." },
-      { id: 4, source: './assets/images/4.png', caption: "Cherishing You", description: "From school to college, Liza, our friendship’s my favorite story. On your birthday, I’m all about making you smile." },
-      { id: 5, source: './assets/images/5.png', caption: "Owning My Fault", description: "I’m sorry for calling you a timepass, Liza. I was scared and wrong. Your birthday’s for celebrating you, not my errors." },
-      { id: 6, source: './assets/images/6.png', caption: "Learning from Me", description: "Sorry I let fear hurt you, Liza. On your birthday, I’m focused on being the friend you deserve, starting now." },
-      { id: 7, source: './assets/images/7.png', caption: "Your Day to Shine", description: "It’s your birthday, Liza! I care about you tons and want today to feel like a warm hug from your best friend." },
-      { id: 8, source: './assets/images/me.png', caption: "Here for You", description: "Happy birthday, Liza! My care for you is bigger than any fight. I’m here to lift you up today and always." },
-      { id: 9, source: './assets/images/8.png', caption: "My Biggest Promise", description: "**I’ll always protect you, Liza. I’ll always support you, I’ll be with you even if world’s against.** Happy birthday—my loyalty’s forever." },
-      { id: 10, source: './assets/images/5_5.png', caption: "Liza’s Birthday Party", description: "Happy birthday, Liza! You’re my best friend, and I mean it—I’m here to make every moment of today amazing for you." }
+      { id: 1, source: './1.png', caption: "Your Birthday Glow", description: "Happy birthday, Liza! From 11th grade to college, you’re my closest friend. I’m here to make today as special as you are." },
+      { id: 2, source: './2.png', caption: "My Deep Regret", description: "I’m sorry for saying you were using me, Liza. It was fear, not truth. Let’s make your birthday about joy, not my mistake." },
+      { id: 3, source: './3.png', caption: "Our Unbreakable Bond", description: "Happy birthday, Liza! You’re the friend I trust with all my secrets. I care about you so much and want you to shine today." },
+      { id: 4, source: './4.png', caption: "Cherishing You", description: "From school to college, Liza, our friendship’s my favorite story. On your birthday, I’m all about making you smile." },
+      { id: 5, source: './5.png', caption: "Owning My Fault", description: "I’m sorry for calling you a timepass, Liza. I was scared and wrong. Your birthday’s for celebrating you, not my errors." },
+      { id: 6, source: './6.png', caption: "Learning from Me", description: "Sorry I let fear hurt you, Liza. On your birthday, I’m focused on being the friend you deserve, starting now." },
+      { id: 7, source: './7.png', caption: "Your Day to Shine", description: "It’s your birthday, Liza! I care about you tons and want today to feel like a warm hug from your best friend." },
+      { id: 8, source: './me.png', caption: "Here for You", description: "Happy birthday, Liza! My care for you is bigger than any fight. I’m here to lift you up today and always." },
+      { id: 9, source: './8.png', caption: "My Biggest Promise", description: "**I’ll always protect you, Liza. I’ll always support you, I’ll be with you even if world’s against.** Happy birthday—my loyalty’s forever." },
+      { id: 10, source: './5_5.png', caption: "Liza’s Birthday Party", description: "Happy birthday, Liza! You’re my best friend, and I mean it—I’m here to make every moment of today amazing for you." }
     ];
 
     let currentImageIndex = 0;
@@ -217,7 +217,7 @@
     const openingMusic = document.getElementById('openingMusic');
     const startBtn = document.getElementById('startBtn');
     const startScreen = document.getElementById('startScreen');
-    openingMusic.src = './assets/audios/opening.mp3';
+    openingMusic.src = './opening.mp3';
 
     function updateImage() {
       const currentData = imageData[currentImageIndex];
